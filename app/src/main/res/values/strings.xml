@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">rmp_pr14_Savitsin</string>
+    <string name="alarm">Будильник</string>
+    <string name="time1">7:30</string>
+    <string name="time2">8:00</string>
+    <string name="add_alarm">Добавить будильник</string>
+    <string name="list">list</string>
+    <string name="alarm_text">alarm</string>
+    <string name="calendar">calendar</string>
+    <string name="settings">settings</string>
+</resources>
