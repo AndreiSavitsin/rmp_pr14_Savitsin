@@ -8,4 +8,16 @@
     <string name="alarm_text">alarm</string>
     <string name="calendar">calendar</string>
     <string name="settings">settings</string>
+    <string name="spisok">Список дел</string>
+    <string name="pohod">Вечерний поход в кино</string>
+    <string name="date1">10.02.2021</string>
+    <string name="pohod_colegi">Идём в поход с коллегами</string>
+    <string name="time3">19:40</string>
+    <string name="zakaz_ozon">Забрать заказ Ozon</string>
+    <string name="punkt">Пункт выдачи на ул. Ленина, 103</string>
+    <string name="autoservice">Запись в автосервис</string>
+    <string name="service2">Сдать автомобиль в автосервис на ул.</string>
+    <string name="service3">Бисертская, д. 14. Замена масла</string>
+    <string name="add_task">Добавить задачу</string>
+    <string name="zapisat">Записать задачу</string>
 </resources>

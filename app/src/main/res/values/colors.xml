@@ -5,4 +5,6 @@
     <color name="green">#60D394</color>
     <color name="red">#FF9B85</color>
     <color name="light_green">#AAF683</color>
+    <color name="yellow">#FFD97D</color>
+    <color name="gray">#D3D3D3</color>
 </resources>

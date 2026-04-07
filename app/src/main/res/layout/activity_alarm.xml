@@ -50,7 +50,7 @@
             android:src="@drawable/btnoff"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="195dp"></androidx.appcompat.widget.AppCompatImageButton>
-            </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -113,6 +113,7 @@
                 android:textColor="@color/red"
                 android:textSize="18dp"></TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
