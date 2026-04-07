@@ -14,6 +14,167 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Изменить будильник"></TextView>
+            android:text="Изменить будильник"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"></TextView>
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:src="@drawable/backbutton"
+            android:background="@drawable/button1"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"></androidx.appcompat.widget.AppCompatImageButton>
     </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button6"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="41dp"
+            >
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alarm2"
+                android:background="@drawable/button1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"></androidx.appcompat.widget.AppCompatImageButton>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/white"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:hint="16:30"
+                android:textColor="#D3D3D3"
+                android:inputType="text"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button6"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="30dp"
+            >
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calendar2"
+                android:background="@drawable/button1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"></androidx.appcompat.widget.AppCompatImageButton>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/white"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:hint="@string/date1"
+                android:textColor="#D3D3D3"
+                android:inputType="text"></EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Повторять каждый день"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"></TextView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:text="Понедельник"
+        android:textColor="@color/white"
+        android:textSize="18dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:text="Вторник"
+        android:textColor="@color/white"
+        android:textSize="18dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+        android:text="Среда"
+        android:textColor="@color/white"
+        android:textSize="18dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:text="Четверг"
+        android:textColor="@color/white"
+        android:textSize="18dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Пятница"
+        android:textColor="@color/white"
+        android:textSize="18dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:text="Суббота"
+        android:textColor="@color/white"
+        android:textSize="18dp"></CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:text="Воскресенье"
+        android:textColor="@color/white"
+        android:textSize="18dp"></CheckBox>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="550dp"
+        android:text="Удалить будильник"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="620dp"
+        android:text="Сохранить будильник"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18dp">
+    </androidx.appcompat.widget.AppCompatButton>
 </RelativeLayout>
