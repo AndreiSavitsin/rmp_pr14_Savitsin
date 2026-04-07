@@ -43,13 +43,12 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="37dp"></TextView>
 
-        <androidx.appcompat.widget.AppCompatImageButton
+        <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/btn_off_on"
-            android:src="@drawable/btnoff"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="195dp"></androidx.appcompat.widget.AppCompatImageButton>
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="27dp"></androidx.appcompat.widget.SwitchCompat>
+
     </LinearLayout>
 
     <LinearLayout
@@ -65,14 +64,12 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="37dp"></TextView>
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/btn_off_on"
-            android:src="@drawable/btnon"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="195dp"></androidx.appcompat.widget.AppCompatImageButton>
-    </LinearLayout>
+        <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="27dp"></androidx.appcompat.widget.SwitchCompat>
+</LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
